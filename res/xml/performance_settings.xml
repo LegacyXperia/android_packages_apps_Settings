@@ -50,4 +50,8 @@
         android:entries="@array/dithering_entries"
         android:entryValues="@array/dithering_values"/>
 
+    <CheckBoxPreference
+        android:key="pref_force_highend_gfx"
+        android:title="@string/pref_force_highend_gfx_title"
+        android:summary="@string/pref_force_highend_gfx_summary" />
 </PreferenceScreen>
